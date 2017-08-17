@@ -9,7 +9,6 @@ from geopy.geocoders import Nominatim # https://github.com/geopy/geopy
 from pattern.en import parsetree
 from datetime import datetime, timedelta
 from pymongo import MongoClient
-
 application = Flask(__name__, instance_relative_config=True, static_url_path='')
 application.config.from_object('config')
 application.config.from_pyfile('config.py', silent=True)  # Config for local development is found at: instance/config.py. This will overwrite configs in the previous line. The instance folder is ignored in .gitignore, so it won't be deployed to Heroku, in effect applying the production configs.
