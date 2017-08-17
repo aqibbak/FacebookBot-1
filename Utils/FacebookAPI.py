@@ -1,6 +1,5 @@
 import requests, json
 from flask import url_for
-
 def get_user_fb(token, user_id):
     r = requests.get("https://graph.facebook.com/v2.6/" + user_id,
                     params={"fields": "first_name,last_name,profile_pic,locale,timezone,gender"
