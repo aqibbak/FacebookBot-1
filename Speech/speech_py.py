@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import credentials
-
 def speech_to_text_ibm_rest(raw_audio):
 	print 'Transcribing...'
 	endpoint = 'https://stream.watsonplatform.net/speech-to-text/api/v1/recognize'
