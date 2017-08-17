@@ -1,6 +1,5 @@
 import requests, time, re
 from datetime import datetime, timedelta
-
 def get_trending_news(keyword):
     print keyword
     score = 8
