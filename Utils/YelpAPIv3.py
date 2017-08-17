@@ -1,5 +1,4 @@
 import requests
-
 class Client3:
     def __init__(self, token):
         self.endpoint = 'https://api.yelp.com/v3/businesses/search'
