@@ -38,7 +38,6 @@ def handle_messages():
             # Only process message in here
             if not message:
                 return "ok"
-
             # Start processing valid requests
             try:
                 FB.show_typing(token, sender_id)
