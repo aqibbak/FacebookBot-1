@@ -2,7 +2,6 @@ from bson.objectid import ObjectId
 from FacebookAPI import get_user_fb
 from datetime import datetime
 from config import PAT
-
 def find_user_id(users, user_object_id):
     # Convert from string to ObjectId:
     return users.find_one({'_id': ObjectId(user_object_id)})
