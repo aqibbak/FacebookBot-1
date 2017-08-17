@@ -8,4 +8,4 @@ else:
 def transcribe(audio_url):
 	raw_audio = convert.convert(audio_url)
 	
-	return STT(raw_audio)
+return STT(raw_audio)
