@@ -7,7 +7,6 @@ from datetime import datetime
 import config
 from bs4 import BeautifulSoup
 import requests
-
 # Yelp Auth API v2
 auth = Oauth1Authenticator(
     consumer_key=config.CONSUMER_KEY,
