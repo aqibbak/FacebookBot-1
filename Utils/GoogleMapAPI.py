@@ -1,5 +1,4 @@
 import requests
-
 class GoogleMap:
     def __init__(self):
         self.place_endpoint = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
