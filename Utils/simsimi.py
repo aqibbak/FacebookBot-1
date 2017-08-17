@@ -1,5 +1,4 @@
 import urllib2, urllib, json
-
 class SimSimiException(Exception):
 	pass
 
