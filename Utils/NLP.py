@@ -3,7 +3,6 @@ from bad_words import BAD_WORDS
 from datetime import datetime, timedelta
 from pattern.en import parsetree, singularize
 from pattern.search import search
-
 # Random response sets
 no_response = ["*scratch my head* :(", "How do I respond to that... :O", "I can be not-so-smart from time to time... :(", "Err... you know I'm not human, right? :O"]
 error = ["Sorry I've got a little bit sick. BRB in 2 min :(", "Oops... 404 My Witty Mind Not Found :O", "Oops... My brain went MIA in the cloud, BRB in 2 :(", "Hmm... How should I respond to that... :O"]
